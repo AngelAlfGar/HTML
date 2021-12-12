@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 500px">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beta</td>
+                <td>free</td>
+            </tr>
+            <tr>
+                <td>Deel</td>
+                <td>$19,20</td>
+            </tr>
+            <tr>
+                <td>Microsfot</td>
+                <td>$100,985,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $49,80</td>
+        </tfoot>
+    </table>
+
+
+
+
+    <!--UL significa lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <!--OL significa lista ordenada-->
+    <ol>
+        <li value=50>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: upper-alpha">Subelemento 1</li>
+                <li style="list-style-type: upper-roman">Subelemento 2</li>
+                <li style="list-style-type: upper-roman">Subelemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario.php" method="POST">
+
+        <label for="radio">Radio</label>
+        <input type="radio" id="radio" name="radio" placeholder="Nombre" />
+        <br><br>
+        <label for="checkBox">checkBox</label>
+        <input type="checkbox" id="checkBox" name="checkBox" placeholder="Nombre" />
+        <br><br>
+        <label for="Password">Password</label>
+        <input type="password" id="password" name="password" />
+        <br><br>
+        <label for="File">File</label>
+        <input type="File" id="File" name="File" />
+        <br><br>
+        <label for="Date">Date</label>
+        <input type="Date" id="Date" name="Date" />
+        <br><br>
+        <label for="Number">Number</label>
+        <input type="Number" id="Number" name="Number" />
+        <br><br><br>
+
+        <label for="nombre ">Nombre</label>
+        <input type="text " id="nombre " name="nombre " placeholder="Nombre " />
+        <br><br>
+        <label for="apellido ">Apellido</label>
+        <input type="text " id="apellido " name="apellido " placeholder="Apellido " />
+        <br><br>
+        <label for="comentario ">Comentario</label>
+        <br>
+        <textarea cols="50 " rows="10 " id="comentario " name="comentario " placeholder="Ingrese un comentario... "></textarea>
+        <br><br>
+        <!-- <input type="submit " /> -->
+        <button type="button ">botón</button>
+        <button type="reset ">Reset</button>
+        <button type="submit ">Submit</button>
+    </form>
+    <h1>Heading uno</h1>
+    <h2>Heading dos</h2>
+    <hr>
+    <h3>Heading tres</h3>
+    <h4>Heading cuatro</h4>
+    <h5>Heading cinco</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Parrafo</p>
+    <p>parrafo2</p>
+    <hr>
+    <h2>heading nuevo</h2>
+    <p>parrafo nuevo con texto <span style="color:rgb(40, 2, 209) ">mucho mas largo</span> y es para mostrar <br> la etiqueta span.</p>
+    <!--Esto es un comentario-->
+    <a href="https://www.google.com " target="_blank ">Ir a google</a><br>
+    <img src="img/Curso Java.jpg " height="200 " width="200 " />
+
+</body>
+
+</html>
